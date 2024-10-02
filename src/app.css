@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    @apply bg-zinc-800
+}
+
+.icon {
+    @apply p-2 rounded text-center h-12 w-12  text-center justify-center flex items-center font-extrabold text-lg text-white mt-2;
+}
